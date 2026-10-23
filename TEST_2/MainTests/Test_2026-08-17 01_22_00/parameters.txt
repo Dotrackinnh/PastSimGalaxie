@@ -1,0 +1,26 @@
+=== Simulation parameters ===
+
+2026-08-17 01:22:01
+N = 512
+L = 150.0
+G0 = 1.0
+soft = 0.29296875
+Nombre d'étoiles dans le bulbe = 0
+Nombre d'étoiles dans le disque = 3722
+Nombre d'étoiles dans le halo diffus = 45000
+v_circ = 0.1
+random_dispersion = 0.005000000000000001
+R_lim = 270.0
+M_BH = 2e-05
+Np = 48722
+dt = 0.2712373486806161
+BH_step0 = None
+n_steps = 1000000
+TN = False
+MN = False
+Q = 0.810610008930156
+Ratio FFT / grid : 1.0
+Masse halo : -0.5082325581235282
+Masse Trou noir : 0.0
+R_BH_influence = 0.14677103718199608
+R_d_influence = 0.14677103718199608
