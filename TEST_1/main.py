@@ -8,8 +8,11 @@ import pickle
 from matplotlib.colors import SymLogNorm
 
 
-sys.path.append(r'C:\Users\verre\OneDrive\Desktop\Project\NextTIPE\TEST_1')
-    
+dossier_du_script = sys.Path(__file__).resolve().parent
+path = ".." / dossier_du_script
+sys.path.append(path)
+base = sys.Path(path + 'MainTests')
+
 from obj.grille import Grille,SolveurPoisson,BulbeDiagnostic
 from obj.etoile import Etoiles
 from obj.stream import Streams

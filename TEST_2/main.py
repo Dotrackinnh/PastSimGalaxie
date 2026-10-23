@@ -8,9 +8,10 @@ import matplotlib.colors as colors
 from matplotlib.colors import SymLogNorm
 from pathlib import Path
 
-
-sys.path.append(r"C:\Users\verre\OneDrive\Desktop\Project\NextTIPE\TEST_2")
-base = Path(r'C:\Users\verre\OneDrive\Desktop\Project\NextTIPE\TEST_2\MainTests')
+dossier_du_script = Path(__file__).resolve().parent
+path = ".." / dossier_du_script
+sys.path.append(path)
+base = Path(path + 'MainTests')
 
 
 from obj.grille import Grille, SolveurPoisson, BulbeDiagnostic
